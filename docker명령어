@@ -1,0 +1,10 @@
+docker images				- 이미지 확인
+docker ps					- 실행중인 컨테에너 확인
+docker ps -a				- 전체 컨테이너 확인
+docker exec -it (컨테이너명) bash	- 컨테이너 내부 들어감(bash)
+
+-- 전체 삭제
+docker stop $(docker ps -aq)
+docker system prune -a
+
+npm, http-server, node
