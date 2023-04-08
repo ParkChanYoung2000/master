@@ -7,8 +7,11 @@ git commit -m "First Commit"
 
 git log
 git reset b2b441 --hard
-
 git revert b2b441
+
+git branch my-idea
+git branch
+git checkout my-idea
 
 - status
 Untracked
