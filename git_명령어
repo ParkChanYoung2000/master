@@ -29,6 +29,13 @@ git checkout master
 git merge myidea
 git log --graph --all --decorate
 
+------- 원격 명령어
+git remote add origin https://github.com/
+git push -u origini master
+git remote add origin https://github.com/ParkChanYoung2000/master.git
+git branch -M main
+git push -u origin main
+
 
 - status
 Untracked
