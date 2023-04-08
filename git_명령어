@@ -1,0 +1,2 @@
+git config --global user.name "(박찬영)"
+git config --global user.email "(pccy2000@naver.com)"
