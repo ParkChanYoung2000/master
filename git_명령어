@@ -27,6 +27,8 @@ git checkout -d <브랜치이름>     --브랜치삭제
 -- 합치기
 git checkout master
 git merge myidea
+git log --graph --all --decorate
+
 
 - status
 Untracked
