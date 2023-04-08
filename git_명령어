@@ -24,7 +24,9 @@ git checkout my-idea            --브랜치이동
 git checkout master             --브랜치이동
 git checkout -d <브랜치이름>     --브랜치삭제
 
--- 
+-- 합치기
+git checkout master
+git merge myidea
 
 - status
 Untracked
