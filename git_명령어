@@ -35,7 +35,9 @@ git push -u origini master
 git remote add origin https://github.com/ParkChanYoung2000/master.git
 git branch -M main
 git push -u origin main
+git remote  (원격 레파지토리명 확인)
 
+.gitignore
 
 - status
 Untracked
