@@ -1,2 +1,14 @@
 git config --global user.name "(박찬영)"
 git config --global user.email "(pccy2000@naver.com)"
+
+git status
+git add -A
+git commit -m "First Commit"
+
+git log
+git reset b2b441 --hard
+- status
+Untracked
+Changes to be committed
+
+
