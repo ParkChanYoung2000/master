@@ -23,6 +23,7 @@ git branch my-idea              --브랜치생성(로컬)
 git checkout my-idea            --브랜치이동
 git checkout master             --브랜치이동
 git checkout -d <브랜치이름>     --브랜치삭제
+git checkout -b my-idea         --브랜치생성 및 이동
 
 -- 합치기
 git checkout master
