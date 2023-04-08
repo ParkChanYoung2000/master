@@ -1,17 +1,30 @@
+git --version
+git init
 git config --global user.name "(박찬영)"
 git config --global user.email "(pccy2000@naver.com)"
+-- 저장소 복제 다운로드
+git clone <http~ url>
+git clone /로콜/저장소/경로
+git clone 사용자명@호스트:원격/저장소/경로
 
-git status
+-- 추가 및 확정
+git add <파일명>
+git add *
 git add -A
 git commit -m "First Commit"
-
-git log
 git reset b2b441 --hard
 git revert b2b441
+git status                      --깃 상태
+git log                         --깃 로그
 
-git branch my-idea
-git branch
-git checkout my-idea
+-- 가지치기
+git branch                      --브랜치목록
+git branch my-idea              --브랜치생성(로컬)
+git checkout my-idea            --브랜치이동
+git checkout master             --브랜치이동
+git checkout -d <브랜치이름>     --브랜치삭제
+
+-- 
 
 - status
 Untracked
