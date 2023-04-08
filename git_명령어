@@ -7,6 +7,13 @@ git commit -m "First Commit"
 
 git log
 git reset b2b441 --hard
+
+git revert b2b441
+
 - status
 Untracked
 Changes to be committed
+
+- vi Edit
+:q   (나가는명령어)
+
